@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E6BFF"/>
+      <stop offset="100%" stop-color="#165DFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- fundo -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- moeda -->
+  <circle cx="256" cy="256" r="150" fill="#FFFFFF"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#0E46CC" stroke-width="10" opacity="0.15"/>
+  <circle cx="256" cy="256" r="128" fill="none" stroke="#165DFF" stroke-width="7" opacity="0.3" stroke-dasharray="3 13" stroke-linecap="round"/>
+
+  <!-- cifrao -->
+  <text x="256" y="288" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="140" fill="#165DFF">R$</text>
+</svg>

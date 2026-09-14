@@ -1,0 +1,80 @@
+.card {
+  background: var(--color-primary);
+  border-radius: 1rem;
+  padding: 1.75rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  box-shadow: 0 12px 30px -12px rgba(22, 93, 255, 0.55);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.value {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0.35rem 0;
+}
+
+.balanceLabel {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.balanceValue {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.positive {
+  color: #ffffff;
+}
+
+.negative {
+  color: #ffe1e1;
+}
+
+.hint {
+  margin: 0;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.clearButton {
+  margin-top: 0.5rem;
+  align-self: flex-start;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 0.6rem 1.25rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.clearButton:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+@media (min-width: 768px) {
+  .balanceValue {
+    font-size: 2.25rem;
+  }
+}

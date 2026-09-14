@@ -1,0 +1,45 @@
+.main {
+  min-height: 100vh;
+  background: var(--color-background);
+}
+
+.container {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .columns {
+    flex: 2;
+  }
+
+  .sidebar {
+    flex: 1;
+    position: sticky;
+    top: 1.5rem;
+  }
+}
